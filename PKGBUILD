@@ -7,7 +7,7 @@ url='https://www.mono-project.com/'
 arch=('any')
 license=('GPL' 'LGPL2.1' 'MPL')
 depends=('mingw-w64-zlib' 'mingw-w64-libatomic_ops')
-makedepends=('mingw-w64-configure' 'git')
+makedepends=('mingw-w64-configure' 'git' 'python')
 options=(!strip !buildflags staticlibs)
 source=("git+https://github.com/mono/mono#commit=${_gitcommit}"
         git+https://github.com/mono/aspnetwebstack
